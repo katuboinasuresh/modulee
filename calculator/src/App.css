@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: bisque;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.cal {
+  width: 100%;
+  max-width: 400px;
+  background-color: black;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.display {
+  padding: 16px;
+  text-align: right;
+  background-color: brown;
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.display span {
+  font-size: 20px;
+  color: royalblue;
+}
+
+button {
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 20px;
+  padding: 16px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.operators {
+  display: flex;
+}
+
+.operators button {
+  flex: 1 1 0%;
+  font-weight: 700;
+}
+
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.digits button {
+  flex: 1 1 33.33%;
+  max-width: 33.33%;
+
+}
