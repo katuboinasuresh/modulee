@@ -81,10 +81,3 @@ p {
 .i {
     float: right;
 }
-
-@media only screen and (max-width:750px) {
-    .c2 {
-        display: block;
-    }
-
-}
