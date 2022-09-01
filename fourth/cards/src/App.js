@@ -37,7 +37,7 @@ function App() {
           <h3 className="h">Calculator</h3>
           <p className="p">html and css document demo test</p>
 
-          <img className="i" src="https://cdn.onlinewebfonts.com/svg/img_47335.png" width="45px" height="45px"
+          <img className="i" src="https://tse1.mm.bing.net/th?id=OIP.1P976sXD-HBTnewbQ5HGWwHaHa&pid=Api&P=0" width="45px" height="45px"
             alt="ioc"></img>
         </div>
       </div>
