@@ -1,0 +1,31 @@
+.App {
+  width: calc(100%-10px);
+  height: 100vh;
+  border: 1px solid brown;
+  margin: 10px;
+  background-image: url(https://d585tldpucybw.cloudfront.net/sfimages/default-source/labs/kendo/kendo-umbrella/umbrella-bg.jpg?sfvrsn=2c25c32e_2);
+}
+
+.text {
+  float: right;
+  margin-right: 200px;
+  margin-top: 200px;
+  color: antiquewhite;
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: aliceblue;
+  color: black;
+}
+
+.site {
+  margin-left: 80%;
+  margin-top: 40%;
+
+}
+
+img {
+  margin-right: 10px;
+}
