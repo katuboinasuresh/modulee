@@ -1,4 +1,4 @@
-//import logo from './logo.svg';
+//import logo from './
 
 import './App.css';
 
@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <header>
-        <div class="logo"><img src=".\images\logo.svg" alt="logo"></img></div>
+        <div class="logo"><img src="./images/logo.svg" alt="logo"></img></div>
       </header>
       <section class="container">
         <div class="left">
