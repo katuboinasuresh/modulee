@@ -34,6 +34,7 @@ p {
 .c1 {
     padding: 30px;
     margin: 10px;
+    height: 180px;
     box-shadow: 0 0 5px 0 rgba(150, 120, 180, 0.5);
     border: 1px snow;
     border-radius: 5px;
@@ -65,6 +66,7 @@ p {
 .c3 {
     padding: 30px;
     margin: 10px;
+    height: 180px;
     box-shadow: 0 0 5px 0 rgba(95, 18, 172, 0.5);
     border: 1px snow;
     border-radius: 5px;
@@ -80,4 +82,24 @@ p {
 
 .i {
     float: right;
+}
+
+@media only screen and (max-width:768px) {
+    .con {
+        height: 100%;
+        width: 50%;
+        border-radius: 15px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .cards {
+        display: block;
+        margin: 20px;
+        padding: 20px;
+    }
+
+
 }
